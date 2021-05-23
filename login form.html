@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<meta charset="UTF-8" >
+<title>Login Form</title>
+
+
+</head>
+<body >
+<img src="logo.png" alt="logo">
+
+<hr>
+<br/>
+
+
+<fieldset >
+<legend><h2  id="lg" >Login</h2></legend>
+<form action="conf.html" method="post" autocomplete="on">
+
+
+<input type="text"   maxlength="8"   / required>
+<br>
+<br>
+<input value="Last name" type="text" / required>
+<br>
+<br>
+<input value="username" type="text" list="names"  / required>
+<datalist id="names" class="list">
+    <option value="Abdellah">
+    <option value="Fatimazahrae">
+    <option value="Mohamed">
+    <option value="hassan">
+    <option value="Walid">
+  </datalist>
+<br>
+<br>
+<input  type="date" / required>
+<br>
+<br>
+<input  type="email" />
+<br>
+<br>
+<input value="password" type="password" / required>
+<p>gender</p>
+<input type="radio" name="gender" id="male" value="male">
+<label for="male">male</label>
+<input type="radio" name="gender" id="female" value="female">
+<label for="female">female</label><br/>
+<input type="checkbox" name="conditions " value="I've read terms and conditions" / required>
+<br>
+
+<input type="submit" value="Login now">
+</form>
+</fieldset>
+
+
+</body>
+</html>
